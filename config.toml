@@ -1,0 +1,4 @@
+baseURL = "http://ceegary.com/"
+languageCode = "en-us"
+title = "Gary Cheung Portfolio"
+relativeURLs = true
