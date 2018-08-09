@@ -1,11 +1,15 @@
+// base
+@import 'vendor/vendor';
+
 // abstracts
 @import 'abstract/abstract';
 
-// components
-@import 'components/components';
+// base
+@import 'base/base';
 
 // layout
 @import 'layouts/layouts';
 
-// base
-@import 'base/base';
+// components
+@import 'components/components';
+

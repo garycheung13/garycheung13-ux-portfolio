@@ -1,0 +1,16 @@
+.card {
+    box-sizing: border-box;
+    padding-right: 1.5%;
+    margin-bottom: 50px;
+
+    hr {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-top: 1px solid black;
+        width: 10%;
+    }
+
+    @include breakpoint-max(small) {
+        padding-right: 0;
+    }
+}

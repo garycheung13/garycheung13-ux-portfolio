@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "Data Visualizations"
+date: 2018-08-09T17:37:37-04:00
 draft: true
 tagline: "Please insert a short description of the project"
 roles: "Project Type"

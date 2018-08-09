@@ -1,0 +1,7 @@
+.about {
+    @include breakpoint-min(large) {
+        p {
+            width: 90%;
+        }
+    }
+}

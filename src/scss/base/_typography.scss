@@ -1,0 +1,136 @@
+// reponsive rem settings
+html {
+    font-size: 12px;
+
+    @include breakpoint-min(medium) {
+        font-size: 14px;
+    }
+
+    @include breakpoint-min(large) {
+        font-size: 16px;
+    }
+}
+
+a, a:visited {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.section, .footer {
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-size: 1.375rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.navbar {
+    a {
+        font-size: 1.125rem;
+    }
+}
+
+.header {
+    h2 {
+        font-family: "Lora", serif;
+        font-style: normal;
+        font-size: 1.875rem;
+        font-weight: 400;
+    }
+}
+
+.card {
+    h3 {
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-top: 10px;
+        margin-bottom: 2.5%;
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 0.90rem;
+    }
+
+    a {
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-weight: 400;
+    }
+}
+
+.project-header {
+    a {
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-size: 1.875rem;
+        font-weight: 400;
+    }
+}
+
+.project-main {
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-size: 1.375rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h4 {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-size: 1.275rem;
+        font-weight: 600;
+        color: grey;
+    }
+
+    li {
+        font-family: "Lora", serif;
+        font-style: normal;
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin-bottom: 25px;
+        line-height: 165%;
+    }
+}

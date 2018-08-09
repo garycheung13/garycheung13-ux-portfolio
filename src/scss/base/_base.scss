@@ -1,0 +1,22 @@
+@import "typography.scss";
+@import "grid.scss";
+
+html {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+hr {
+    max-width: 75px;
+    border: none; // clear the borders on the other three sides
+    border-top: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:left;
+    margin-left: 0; // needed to force left align on MS edge
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

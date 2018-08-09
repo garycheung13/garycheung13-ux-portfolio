@@ -1,0 +1,26 @@
+.btn-hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 2% 5%;
+    background-color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white !important;
+
+    &:hover {
+        box-shadow: 0px 0px 11px 0px rgba(194,194,194,0.75);
+    }
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-hamburger {
+    text-align: left; // deals with child misalignment issues
+    outline: none;
+}
