@@ -1,9 +1,14 @@
 @import "typography.scss";
 @import "grid.scss";
 
-html {
+.wrapper {
     max-width: 960px;
     margin: 0 auto;
+
+    @include breakpoint-max(small) {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
 }
 
 hr {

@@ -1,12 +1,30 @@
 .project-header {
+    padding-top: 100px;
+
     img {
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
 }
 
-.highlighted {
-    color: black !important;
-    padding-left: 10px;
-    border-left: 3px solid black;
+.project-main {
+    h3 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        margin-top: 60px;
+        color: grey;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        color: black;
+        padding-left: 10px;
+        border-left: 3px solid black;
+        margin-bottom: 15px;
+    }
 }
