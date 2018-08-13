@@ -1,7 +1,7 @@
 ---
 title: "Moment"
 date: 2018-08-09T17:08:52-04:00
-draft: true
+draft: false
 tagline: "Designing an wearable and mobile app to manage academic stress."
 roles: "UX Research, UX Design"
 card: "images/cards/moment.png"

@@ -27,4 +27,32 @@
         border-left: 3px solid black;
         margin-bottom: 15px;
     }
+
+    img {
+        margin-top: 25px;
+    }
+}
+
+.project-images {
+    img {
+        width: 95%;
+    }
+}
+
+.project-2-col {
+    margin-bottom: 70px;
+
+    h4 {
+        margin-top: 10px;
+    }
+
+    img {
+        margin-top: 0;
+    }
+
+    @include breakpoint-min(large) {
+        p {
+            width: 90%;
+        }
+    }
 }

@@ -1,7 +1,7 @@
 ---
 title: "Data Driven Detroit"
 date: 2018-08-09T17:09:02-04:00
-draft: true
+draft: false
 tagline: "Applying user-centered design methods to improve data management for a civic tech startup"
 roles: "UX Consulting, UX Research"
 card: "images/cards/d3.png"
@@ -10,7 +10,7 @@ weight: 3
 ---
 
 ### Overview
-
+---
 #### The Client
 
 Data Driven Detroit(D3) is a civic tech startup located in downtown Detroit who aims to support the revitalization of Detroit by providing data-driven evidence to the city’s government and non-profit organizations. D3 tasked our group with the task of improving their organization’s interval data management processes so that they can complete projects in a more timely and efficient manner.
@@ -26,7 +26,7 @@ Tasks I completed during this project include background research, interviews, a
 
 
 ### Our Process
-
+---
 ![timeline of our process](/images/project-assets/d3-timeline.png)
 
 #### Background Research
@@ -59,7 +59,7 @@ Using the affinity diagram method, several insights into the causes of D3’s da
 
 
 ### Recommendations
-
+---
 Based on our findings, our team provided short and long term recommendations to improve their data storage practices going forward. I highlighted some of our key recommendations below.
 
 **Short term:**
@@ -73,7 +73,7 @@ Based on our findings, our team provided short and long term recommendations to 
 
 
 ### Outcomes
-
+---
 #### Recommendations Report
 
 Our team presented our findings to the client, along with delivering our recommendation report. Our recommendations were very well received by the client and they have worked to incorporate them into their internal processes.

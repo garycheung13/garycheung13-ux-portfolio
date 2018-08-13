@@ -1,7 +1,7 @@
 ---
 title: "MCommunity"
 date: 2018-08-09T17:35:59-04:00
-draft: true
+draft: false
 tagline: "Conducting UX research to improve University of Michigan's identity management system."
 roles: "UX Research"
 card: "images/cards/mcomm.png"

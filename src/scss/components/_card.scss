@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding-right: 2%;
     margin-bottom: 50px;
-    transition: filter 300ms;
 
     hr {
         margin-top: 2px;
@@ -14,6 +13,10 @@
     @include breakpoint-max(small) {
         padding-right: 0;
     }
+}
+
+.card-header {
+    transition: filter 300ms;
 
     @include breakpoint-min(large) {
         &:hover {

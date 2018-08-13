@@ -1,11 +1,11 @@
 ---
 title: "EMX Systems"
 date: 2018-08-09T17:07:22-04:00
-draft: true
+draft: false
 tagline: "Designing a medical record exchange system with providers in mind."
 roles: "UX Research, UX Design"
 card: "images/cards/emx.png"
-headerImage: "https://placehold.it/900x500"
+headerImage: "/images/project-assets/emx-header.png"
 weight: 1
 ---
 
@@ -34,7 +34,15 @@ _How can a healthcare record system be designed to better fit care providers’ 
 
 ### Our Approach
 ---
+![EMX Project Timeline](/images/project-assets/emx-timeline.png)
+
 We used a user-centered design approach where users were involved at every step of the process. We conducted user research to identify problems, ideated to come up with multiple solutions, created a prototype based on our best idea, and validated our idea using usability tests. Based on test results, we iterated on our prototype. For this project, we completed four design iteration cycles.
+
+### Design Overview
+---
+![Design Overview](/images/project-assets/emx-overview.png)
+![Design Overview 2](/images/project-assets/emx-overview2.png)
+
 
 ### User Research
 ---
@@ -46,7 +54,7 @@ We used a contextual inquiry-based approach to interviews, in which we visited i
 
 _*Interviewees shared their own medical data or used data from patients who signed HIPAA waivers for this project._
 
-![Placeholder](https://placehold.it/700x200)
+![affinity map](/images/project-assets/emx-affinity-map.png)
 
 We learned the following for our interviews:
 
@@ -78,12 +86,14 @@ Based on our interviews, our team constructed three personas representing distin
 
 * **Hubert, Young Doctor:** Hubert is a relatively young neurologist that doesn’t have any experience from the days of paper-based records. He is an early adopter of technology and when his hospital implemented a new EMR system, he was asked to assist the administration in educating his follow providers on how to use the new system. Although he is comfortable navigating the EMR, he dislikes that files he needs to make a diagnosis are scattered in multiple sections, reducing the time he has to spend with patients.
 
+![personas](/images/project-assets/emx-personas.png)
+
 
 ### Ideation
 ---
 Our team used a parallel design approach to coming up with design solutions. Each designer on our team created rough wireframes for multiple ideas and then pitched each idea to the team for feedback and critique. Afterwards, we reviewed all ideas that were pitched and created one collaborative wireframe using our individual ideas as references.
 
-![Placeholder](https://placehold.it/700x400)
+{{< emxIdeation >}}
 
 ### Design Solution
 ---
@@ -95,7 +105,7 @@ When providers meet patients, especially for the first time, they want to know t
 
 The dashboard is designed to allow healthcare providers to see a patient history at a glance. Information is organized as in a combined feed and seperated by record type.
 
-![Placeholder](https://placehold.it/700x400)
+![EMX Dashboard](/images/project-assets/emx-encounters.png)
 
 _Design Rationale_
 
@@ -113,7 +123,7 @@ Different providers see different information as important. It would be futile f
 
 Dashboard customization gives EMX system the flexibility for users adjust the dashboard catagories to fit an individual provider’s workflow while still maintaining a clear information hierarchy that makes the page easy to skim.
 
-![Placeholder](https://placehold.it/700x400)
+![EMX Customization](/images/project-assets/emx-feature-custom.png)
 
 _Design Rationale_
 
@@ -129,7 +139,7 @@ Providers typically look at multiple different types of documents making a diagn
 
 Our save for later feature allows providers to mark documents they find important so that they can quickly refer back to several documents very quickly.
 
-![Placeholder](https://placehold.it/700x400)
+![EMX save for later](/images/project-assets/save-for-later.gif)
 
 _Design Rationale_
 
@@ -143,7 +153,7 @@ _Design Rationale_
 
 We learned from interviews that providers will often use their EMR’s search feature to find documents that they dont immediately find. However, search can return too many results, which the provider when has to go through to find what they are looking for. How can we make searching faster for providers?
 
-![Placeholder](https://placehold.it/700x400)
+![EMX filtering](/images/project-assets/emx-filters.png)
 
 _Design Rationale_
 
@@ -160,19 +170,19 @@ Our team completed four design cycles in which we built a prototype, got feedbac
 
 Through usability testing, we learned that doctors want to look multiple records of different types before making a diagnosis. Our design evolved so that providers can preview multiple types of records can be presented on EMX’s dashboard.
 
-![Placeholder](https://placehold.it/700x400)
+![Dashboard iteration](/images/project-assets/emx-dashhistory.png)
 
 #### Language Differences
 
 In our first prototypes, we used the word “history” to label the patient’s full visit history. During user testing, this term was confusing our users due to it having a different meaning in the context of healthcare. One user remarked, _“When I see the word history, I think of the history of this patient’s diagnosis.”_ We changed this labeling to stay “Encounter history” to clarify the confusion.
 
-![Placeholder](https://placehold.it/700x400)
+![language changes](/images/project-assets/emx-labelchange.png)
 
 #### Adjusting for limitations
 
 Viewing labs results is a common reason for a provider to access their EMR. For that reason, our initial designs displayed content from lab results records in the dashboard to save an extra click to view it. This was changed after learning that lab results can very long or scanned as image. In both cases, information would be difficult to pull, so our design was changed to reflect this technical limitation.
 
-![Placeholder](https://placehold.it/700x400)
+![changing for limitions](/images/project-assets/emx-test-change.png)
 
 ### Deliverables
 ---
@@ -180,8 +190,19 @@ Viewing labs results is a common reason for a provider to access their EMR. For 
 
 We developed a color and typographic guide during our last iteration cycle to improve the consistency of our final mockup screens and to create unified visual system for EMX Systems. At the end of the project, the library was given to the client as deliverable to aid with development.
 
+![UI Page 1](/images/project-assets/emx-uiguide1.png)
+![UI Page 2](/images/project-assets/emx-uiguide2.png)
+
 #### Interaction Map
-![Placeholder](https://placehold.it/700x400)
+A interaction map was also included with deliverables.
+
+[Click to here to view a hi-resolution version (PDF)](/documents/emx-interaction-map.pdf)
+
+![interaction map](/images/project-assets/emx-interaction-map.png)
+
+#### Interactive Prototype
+
+The final version of our interactive prototype on InVision was included with our deliverables. A link to the prototype can be provided upon request.
 
 ### Outcomes
 ---
