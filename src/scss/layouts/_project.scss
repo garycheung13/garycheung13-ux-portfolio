@@ -56,3 +56,18 @@
         }
     }
 }
+
+.project-split__img {
+    justify-content: space-between;
+
+    figure {
+        box-sizing: border-box;
+        padding: 1%;
+        margin: 0;
+        width: 48%;
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}

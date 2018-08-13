@@ -43,9 +43,9 @@ I continued with the quiz idea, but instead tried to add icons to represent each
 At this point, I attempted something entirely different and created pseudo-3d map visualizing statistics of each state. I disliked the visual design of this iteration the most, but it inspired me to think in terms of maps for the next iteration, so this iteration was still very helpful.
 {{% /2colLeft %}}
 
-
+{{% 2colLeft src="/images/project-assets/ark-final-try.jpg" %}}
 #### Final Iteration
 I used what I learned from the previous iterations to create final version, which combines the more exciting color palettes of earlier designs with the use of the map in the third iteration.
-![placeholder](https://placehold.it/900x400)
+{{% /2colLeft %}}
 
 {{% jumpButton id="/#portfolio" %}} Back to Portfolio {{% /jumpButton %}}

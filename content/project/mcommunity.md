@@ -5,7 +5,7 @@ draft: false
 tagline: "Conducting UX research to improve University of Michigan's identity management system."
 roles: "UX Research"
 card: "images/cards/mcomm.png"
-headerImage: "https://placehold.it/900x500"
+headerImage: "/images/project-assets/mcomm-header.png"
 weight: 4
 ---
 ### Project Overview
@@ -100,4 +100,9 @@ Based on our findings, we recommended the following:
 
 Although not all of our suggestions were implement some changes were made based on our findings. Deletion now shows the group name so that it is easier to delete unused group and autocomplete is now available during management.
 
-#### Reflection
+{{% sideBySideImg %}}
+    {{< figure src="/images/project-assets/mcomm-update1.png" caption="Figure: Deletion now shows group name on input." >}}
+    {{< figure src="/images/project-assets/mcomm-update2.png" caption="Figure: New autocomplete hints at correct usernames." >}}
+{{% /sideBySideImg %}}
+
+{{% jumpButton id="/#portfolio" %}} Back to Portfolio {{% /jumpButton %}}
