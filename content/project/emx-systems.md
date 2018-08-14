@@ -14,9 +14,9 @@ weight: 1
 ---
 #### Summary
 
-EMX Systems is a healthcare technology company based in Michigan developing a health information exchange platform to improve medical record exchange between healthcare providers who use different electronic medical records (EMR) systems. The most popular EMR solutions, which store electronic patient records, cannot communicate to access each others records. Our client is developing software that supplements a provider’s existing EMR to make record exchange possible. Their platform includes an intranet web application, EMX Portal, for providers to securely access patient records from any other provider regardless of the original EMR.
+**EMX Systems is a healthcare technology company based in Michigan** developing a health information exchange platform to **improve medical record exchange** between healthcare providers who use different electronic medical records (EMR) systems. The most popular EMR solutions, which store electronic patient records, cannot communicate to access each others records. Our client is developing software that **supplements a provider’s existing EMR to make record exchange possible.** Their platform includes an intranet web application, EMX Portal, for providers to securely access patient records from any other provider regardless of the original EMR.
 
-As part of UMSI Design Clinic, I, along with four other designers, were tasked with designing EMX Systems to fit healthcare providers’ workflows. We applied a user-centered design process to understand the needs of medical professionals and used a parallel prototyping process that involved our entire team at every step. A interactive prototype ready for development was delivered to the client with detailed UI specifications.
+As part of UMSI Design Clinic, I, along with four other designers, were tasked with **designing EMX Systems to fit healthcare providers’ workflows.** We applied a **user-centered design process** to understand the needs of medical professionals and used a parallel prototyping process that involved our entire team at every step. A **interactive prototype** ready for development was delivered to the client with detailed **UI specifications**.
 
 #### My role
 
@@ -30,7 +30,9 @@ Our client, an retired medical doctor, believes that current electronic medical 
 
 Our client believes that a more provider-friendly system can be created. His new company, EMX Systems, aims to supplement existing EMRs by providing fast, secure patient data access at the point of care. Fundamentally, he challenged our team to solve the following problem for the EMX portal application:
 
-_How can a healthcare record system be designed to better fit care providers’ needs?_
+{{< bigQuestion >}}
+How can a healthcare record system be designed to better fit care providers’ needs?
+{{< /bigQuestion >}}
 
 ### Our Approach
 ---

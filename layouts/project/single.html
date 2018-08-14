@@ -34,16 +34,10 @@
         {{ .Content }}
     </main>
     {{partial "footer.html"}}
-    <script>
-        (function(){
-            const menu = document.getElementById("menu-hamburger");
-            const options = document.getElementById("navbar-options");
-            const icon = document.querySelector("#menu-hamburger .hamburger-icon");
-            menu.addEventListener("click", function(){
-                options.classList.toggle("mobile-visible");
-                icon.classList.toggle("hamburger-icon__close");
-            });
-        })();
-    </script>
+    <!-- library for smooth scroll effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+    <!-- navbar script -->
+    <script src="/js/{{ index .Site.Data.js.hash "footer.js" }}"></script>
+
 </body>
 </html>

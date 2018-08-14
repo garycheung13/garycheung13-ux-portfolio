@@ -31,7 +31,7 @@ gulp.task("images", function () {
     del(["static/images/**/*"])
     gulp.src("src/images/**/*")
         // .pipe(hash())
-        .pipe(gulp.dest("static/images"))
+    .pipe(gulp.dest("static/images"));
         // .pipe(hash.manifest("hash.json"))
         // .pipe(gulp.dest("data/images"))
 });
@@ -40,7 +40,7 @@ gulp.task("images", function () {
 gulp.task("docs", function () {
     del(["static/documents/**/*"])
     gulp.src("src/documents/**/*")
-    .pipe(gulp.dest("static/documents"))
+    .pipe(gulp.dest("static/documents"));
 });
 
 // Hash javascript
@@ -50,15 +50,15 @@ gulp.task("js", function () {
         .pipe(hash())
         .pipe(gulp.dest("static/js"))
         .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("data/js"))
+        .pipe(gulp.dest("data/js"));
 });
 
 // Watch asset folder for changes
 gulp.task("watch", ["scss", "images", "docs", "js"], function () {
-    gulp.watch("src/scss/**/*", ["scss"])
-    gulp.watch("src/images/**/*", ["images"])
-    gulp.watch("src/documents/**/*", ["docs"])
-    gulp.watch("src/js/**/*", ["js"])
+    gulp.watch("src/scss/**/*", ["scss"]);
+    gulp.watch("src/images/**/*", ["images"]);
+    gulp.watch("src/documents/**/*", ["docs"]);
+    gulp.watch("src/js/**/*", ["js"]);
 });
 
 // Set watch as default task
