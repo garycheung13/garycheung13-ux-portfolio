@@ -13,11 +13,11 @@ weight: 2
 ---
 #### Summary
 
-Moment is a UX research & design project that explores the use of personal informatics for data collection and analysis. For this project, our team of four designers chose a topic that was personal to all of us -- academic stress. Special focus was placed on developing an accurate data collection strategy which would promote behavioral change.
+Moment is a **UX research & design project** that explores the use of personal informatics for data collection and analysis. For this project, our team of four designers chose a topic that was personal to all of us -- **academic stress.** Special focus was placed on developing an accurate data collection strategy which would promote behavioral change.
 
-We designed an wearable & companion app that quantifies the strength of various stress coping mechanisms in order to provide in-the-moment feedback on the user’s fluctuating stress levels. Users wear a wearable containing a heart rate sensor which shows interest in significant changes in heart rate and suggest a stress relief exercise, which the user will rate upon completion. Through repeated trials, the device will learn which exercises are most effective for that user and make better suggestions. Additional feedback is provided through a companion mobile app where they cab view visualizations of their heart as a way to judge the effectiveness of coping activities.
+We designed an **wearable & companion mobile app** that measueres the strength of various stress coping mechanisms in order to provide **in-the-moment feedback on the user’s fluctuating stress levels.** Users wear a wearable containing a heart rate sensor that shows interest in significant changes in the user's heart rate and suggests stress relief exercises, which the user will rate upon completion. **Through repeated trials,** the device will **learn which exercises are most effective** for that user and make better suggestions. Additional feedback is provided through a companion mobile app where they can view visualizations of their heart as a way to learn about their progress managing their stress.
 
-Through our proposed design, we aim to improve the user’s ability to identify which coping mechanisms are most effective for themselves.
+Through our proposed design, we aim to **improve the user’s ability to identify which coping mechanisms** are most effective for themselves.
 
 #### Objective
 
@@ -33,11 +33,11 @@ I was involved during each step in the project. I contributed to brainstorming s
 
 {{% jumpButton id="#final-design" %}} Skip to Solution {{% /jumpButton %}}
 
-### Design Overview
+<!-- ### Design Overview
 ---
 #### App collections data on stress levels through sensors and self-reporting
 #### Give suggestions when stress level peaks
-#### Visualizations in companion app allow users to track their progress
+#### Visualizations in companion app allow users to track their progress -->
 
 ### Approach
 ---
@@ -47,7 +47,7 @@ I was involved during each step in the project. I contributed to brainstorming s
 ---
 #### Interviews
 
-Each member of our team recruited one person to interview anonymously about their experiences with school-related stress. We were able to speak with a wide spectrum of academics, from those just starting undergraduate studies to those that were several years into their PhD. We wanted to make sure we understood how a diverse group of students experienced stress and what common coping activities were used.
+Each member of our team recruited one person to **interview about their experiences with school-related stress.** We were able to speak with a wide spectrum of academics, from those just starting undergraduate studies to those that were several years into a PhD. We wanted to make sure we understood how a **diverse group of students experienced stress** and what common coping activities were used.
 
 From these interviews, we learned the following about student experiences with stress:
 
@@ -59,7 +59,7 @@ From these interviews, we learned the following about student experiences with s
 {{% 2colLeft src="/images/project-assets/moment-persona.png" %}}
 Based on our interview findings, we created a persona to describe the type of user that were should be designing for.
 
-Jackie is a masters student in a challenging masters program that has to juggle work and school responsibilities. She is familiar with the typical ways of handling stress, but wants to better understand what strategies actually work for her so that she can better manage her day.
+**Jackie** is a masters student in a challenging masters program that has to juggle work and school responsibilities. She is familiar with the typical ways of handling stress, but wants to better understand what strategies actually work for her so that she can better manage her day.
 {{% /2colLeft %}}
 
 ### Final Design
@@ -73,28 +73,33 @@ Jackie is a masters student in a challenging masters program that has to juggle 
 #### Design Solution
 
 ##### In-the-Moment Support
-Watch monitors and takes interest in heart rate jumps, prompting use to try a relaxation activity. The app will also provide guidance on completing said activity.
+Watch monitors and takes interest in heart rate jumps, prompting use to try a relaxation activity. The app will also provide guidance on completing said activity. We use friendly, casual language in the alert to make the app feel more approachable and human.
+
 ![In the moment support](/images/project-assets/moment-notice.png)
 <br><br>
 
 ##### Encouraging Behavior Change
-Learning and reinforcing positive ways to detail with stress is a priority but change is hard. Our app breaks down activities into smaller actionable steps that are easier to complete, and provide positive reinforcement.
+Learning and reinforcing positive ways to detail with stress is a priority but change is hard. Our app breaks down activities into smaller actionable steps that are easier to complete, and provide positive reinforcement. This was feature was inspired by the concept of "Shaping the Path" from Dan & Chip Heath's book _Switch: How to Change Things When Change is Hard_, in which the authors' found change is easier when one makes the steps for change smaller and more actionable.
+
 ![Encouraging change](/images/project-assets/moment-exercise.png)
 <br><br>
 
 ##### Flexibility and Control
-We understand that users may not be able to act on their stress right away and provide the ability for users to dismiss the prompts. We also realize that heart rate can fluctuate non-stress related reasons such as exercise, so we give users the ability to dismiss a false positive.
+
+We understand that users may not be able to act on their stress right away and provide the ability for users to dismiss the prompts. We also realize that heart rate can fluctuate non-stress related reasons such as exercise, so we give users the ability to dismiss a false positive. Moreover, we wanted to convey the feeling that user, not the app, was in control the decision to act.
+
 ![Dismiss notices](/images/project-assets/moment-dismiss.png)
 <br><br>
 
 ##### Short and Long term feedback
-The app tracks and provides access the data it collects through visualizations which provide feedback on how well stress is being managed through heart rate history.
+The app tracks and provides access the data it collects through visualizations which provide feedback on how well stress is being managed through heart rate and stress rating history. Visible feedback is important for change, so we made it point to find a way to show the user progress for a something intangible as stress management.
+
 ![feedback](/images/project-assets/moment-viz.png)
 
 ### Ideation
 ---
 {{% 2colLeft src="/images/project-assets/moment-brainstorm.jpg" %}}
-Our ideation phase was spent refining the scope of our project and determining the exact use cases we wanted our product to fulfill. We found from our research that academic stress is best overcame by completing the stressful task (such as completing a difficult project), but stress symptoms (e.g. fatigue, headaches) distracted the individual from doing so. As such, we determined that providing in-the-moment stress management support was the most effective way to keep users on aid stress coping.
+Our ideation phase was spent **refining the scope of our project** and determining the exact use cases we wanted our product to fulfill. We found from our research that academic stress is best overcame by completing the stressful task (such as completing a difficult project), but stress symptoms (e.g. fatigue, headaches) **distracted the individual from doing so.** We determined that providing **in-the-moment stress management support was the most effective** way to keep users on aid stress coping.
 {{% /2colLeft %}}
 
 
@@ -106,23 +111,23 @@ Data visualization was an important concept during our wireframing sessions. We 
 {{% /2colLeft %}}
 
 #### Measurement Strategy
-Our team placed a special focus on finding a good strategy for measurement for stress, which can notoriously hard to measure.
+Our team placed a **special focus on finding a good strategy for measurement for stress,** which can notoriously hard to measure.
 
-We chose a strategy that strikes a balance between burdening users with too many questions and blindly trusting measurements from sensors. We use a heart rate sensor gathers information quietly, but also ask the user how they feeling when the sensor detects a jump to check if the change was due to stress.  The app also asks the user to rate their stress level before and after performing a coping exercise in order to track whether the user perceives the method as working.
+We chose a strategy that **strikes a balance** between burdening users with too many questions and blindly trusting measurements from sensors. We use a **heart rate sensor** to gather information quietly, but also ask the user how they feeling when the sensor detects a jump to check if the change was due to stress. The app **collects self-reported information** by asking the user to rate their stress level before and after performing a coping exercise in order to track whether the user perceives the method as working.
 
 #### Information Architecture
 
-An overview of the user flow for the wearable and the companion app. Emphasis was placed on creating a straightforward workflow wouldn’t require extra cognitive effort to understand. We wanted to avoid any potential friction with using the app when the user was already stressed out something else in their academic life.
+An overview of the user flow for the wearable and the companion app. Emphasis was placed on **creating a straightforward workflow** wouldn’t require extra cognitive effort to navigate. We wanted to avoid any potential friction with using the app when the user was already stressed out something else in their academic life.
 
-[Hi-res version of interaction map.](/images/project-assets/moment-ia-full.png)
+[View Hi-res version of interaction map.](/images/project-assets/moment-ia-full.png)
 
 ![information architecture](/images/project-assets/moment-ia.png)
 
 #### Physical prototyping
 
-Since our design involved a wearable, physical actions are part of the user experience. Our team created a physical prototype using an Arduino to test the experience of turning a knob to get feedback. We created a device where the number of lit leds could be controlled with a knob to simulate turning a dial on a wearable to rate stress level.
+Since our design involved a wearable, **physical actions are part of the user experience.** Our team created a physical prototype using an Arduino to test the experience of turning a knob to get feedback. We created a device where the number of lit leds could be controlled with a knob to simulate turning a dial on a wearable to rate stress level. Note that our version of the Audrino contained a built-in wifi feature not shown in the digital schematic.
 
-{{< figure src="/images/project-assets/moment-aud.png" caption="Figure: Digital model of the arduino" >}}
+{{< figure src="/images/project-assets/moment-aud.png" caption="Figure: Digital schematic of the arduino we built." >}}
 
 
 ### Reflection
@@ -131,7 +136,7 @@ Since our design involved a wearable, physical actions are part of the user expe
 
 With more time, I would have loved to:
 
-* Expand the scope of the app to work with other types of stress. We limited our scope due to time constraints, but I would love to explore what possibilities are available for different stress experiences.
+* Expand the app to work with other types of stress. We limited our scope due to time constraints, but I would love to explore what possibilities are available for different stress experiences.
 * Conduct interviews with stress management experts. This was something that got left out due to time and I believe that this would enhance future iterations the design.
 * Conduct usability tests and iterate on the UI. Our team did not have much experience designing screens for wearables. I’d love to conduct a usability test to validate the UI’s usability.
 

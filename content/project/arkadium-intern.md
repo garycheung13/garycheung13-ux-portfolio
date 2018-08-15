@@ -2,8 +2,8 @@
 title: "Arkadium Internship"
 date: 2018-08-09T17:37:50-04:00
 draft: false
-tagline: "Design work for Arkadium's Inhabit, which generates data visualizations based on publisher content."
-roles: "Visual Design, Data Visualization"
+tagline: "Data visualization design for Arkadium's Inhabit."
+roles: "UI Design, Data Visualization"
 card: "images/cards/ark.png"
 headerImage: "/images/project-assets/ark-header.png"
 weight: 0

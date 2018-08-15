@@ -14,21 +14,21 @@ weight: 1
 ---
 #### Summary
 
-**EMX Systems is a healthcare technology company based in Michigan** developing a health information exchange platform to **improve medical record exchange** between healthcare providers who use different electronic medical records (EMR) systems. The most popular EMR solutions, which store electronic patient records, cannot communicate to access each others records. Our client is developing software that **supplements a provider’s existing EMR to make record exchange possible.** Their platform includes an intranet web application, EMX Portal, for providers to securely access patient records from any other provider regardless of the original EMR.
+**EMX Systems is a healthcare technology company based in Michigan** developing a health information exchange platform to **improve medical record exchange** between healthcare providers who use different electronic medical records (EMR) systems. The most popular EMR solutions, which store electronic patient records, cannot communicate to access each others records. Our client is developing software that **supplements a provider’s existing EMR to make record exchange possible.** Their platform includes an **intranet web application**, EMX Portal, for providers to securely access patient records from any other provider regardless of the originating EMR.
 
 As part of UMSI Design Clinic, I, along with four other designers, were tasked with **designing EMX Systems to fit healthcare providers’ workflows.** We applied a **user-centered design process** to understand the needs of medical professionals and used a parallel prototyping process that involved our entire team at every step. A **interactive prototype** ready for development was delivered to the client with detailed **UI specifications**.
 
 #### My role
 
-Completing this project was a team effort, and I contributed during every step of the process. I interviewed two physicians, analyzed our collective interview data, and developed our user journey. During the prototyping phase, I wasresponsible for designing the dashboard and the individual record screen. I also lead the process for developing a UI component library in Sketch to improve our team’s prototyping speed.
+I contributed during each step of our research and design process. I interviewed two physicians, contributed to interview analysis, wrote content for the personas, and developed our user journey. During the prototyping phase, I was responsible for designing the dashboard and the individual record screen. I also lead the development of a UI component library in Sketch to improve our team’s prototyping speed.
 
 {{% jumpButton id="#design-solution" %}} Skip to Solution {{% /jumpButton %}}
 
 ### The Challenge
 ---
-Our client, an retired medical doctor, believes that current electronic medical record (EMR) solutions, which store digital patient records, are not designed for healthcare providers. Many doctors have at least one complaint about their EMR. Solutions are often are selected based on the needs of the hospital administrators, such as the ability to bill patients more efficiently.
+Our client, an retired medical doctor, believes that current **electronic medical record (EMR) solutions**, which store digital patient records, are **not designed for healthcare providers' needs**. Many doctors have at least one complaint about their EMR. Solutions are often are selected based on the needs of the hospital administration, such as the ability to bill patients more efficiently.
 
-Our client believes that a more provider-friendly system can be created. His new company, EMX Systems, aims to supplement existing EMRs by providing fast, secure patient data access at the point of care. Fundamentally, he challenged our team to solve the following problem for the EMX portal application:
+Our client **believes that a more provider-friendly system can be created**. His new company, EMX Systems, aims to supplement existing EMRs by providing fast, secure patient data access at the point of care. Fundamentally, he **challenged our team** to solve the following problem for the EMX portal application:
 
 {{< bigQuestion >}}
 How can a healthcare record system be designed to better fit care providers’ needs?
@@ -38,7 +38,7 @@ How can a healthcare record system be designed to better fit care providers’ n
 ---
 ![EMX Project Timeline](/images/project-assets/emx-timeline.png)
 
-We used a user-centered design approach where users were involved at every step of the process. We conducted user research to identify problems, ideated to come up with multiple solutions, created a prototype based on our best idea, and validated our idea using usability tests. Based on test results, we iterated on our prototype. For this project, we completed four design iteration cycles.
+We used a **user-centered design approach** where users were involved at every step of the process. We conducted user research to identify problems, ideated to come up with multiple solutions, created a prototype based on our best idea, and validated our idea using usability tests. Based on test results, we iterated on our prototype. For this project, we completed **four design iteration cycles.**
 
 ### Design Overview
 ---
@@ -50,37 +50,37 @@ We used a user-centered design approach where users were involved at every step 
 ---
 #### Contextual Inquiry
 
-In order to better understand how healthcare providers used EMRs, we conducted 9 interviews with care providers. Our interviewees group included a mix of doctors, nurses, and medical students.
+In order to understand how healthcare providers used patient records, we **conducted 9 interviews** with care providers. Our interviewees group included a combination of doctors, nurses, and medical students.
 
-We used a contextual inquiry-based approach to interviews, in which we visited interviewees at their office to ask questions about their EMR usage experiences and observe them interacting with their EMR*. Each member of the our group was responsible for conducting 1-2 interviews. Afterwards, we synthesized our interview data by building an affinity diagram.
+We used a **contextual inquiry approach** to interviews, in which we visited interviewees at their office to ask questions about their EMR usage experiences, followed by observing them interacting with their EMR*. Each member of the our group was responsible for conducting 1-2 interviews. Afterwards, we synthesized our interview data by **building an affinity diagram** to organize our notes and synthesize our findings.
 
-_*Interviewees shared their own medical data or used data from patients who signed HIPAA waivers for this project._
+_*Interviewees demonstrated with their own medical data or used data from patients who signed HIPAA waivers for this project._
 
 ![affinity map](/images/project-assets/emx-affinity-map.png)
 
-We learned the following for our interviews:
+Based on our affinity diagram, we learned the following for our interviews:
 
-* **Too much noise** Interviewees disliked that their system shows too much information unrelated to their patient.
-* **Interface doesn’t fit workflow:** Interviewees disliked needing to go through multiple screens to get specific types of information.
 * **Quality of outside records is inconsistent:** Records sent from other providers are often scanned in the system as images and therefore unsearchable, with varying levels of image quality.
 * **Too much complexity:**Learning a new EMR system takes too long, and providers feel unproductive searching for information. One interviewee noted that he need to take a multi-day workshop to learn a new EMR system when it was first implemented.
-* **Double work:** If a lab or imaging result can’t be found in the current system, it can sometimes be performed again because requesting the document can take too long.
+* **Double work:** If a lab or imaging result can’t be found in the current system, a provider may reorder the test becuase it is faster than waiting for the previous result to arrive.
+* **Too much noise:** Interviewees disliked that their system shows too much information unrelated to their patient.
+* **Interface doesn’t fit workflow:** Interviewees frequently needed to make dozens of clicks to reach certain types of records.
 
 #### Survey
 
-Although interviews provided in-depth insight into EMR usage experiences, we also wanted to get a broader information about the reasons providers access their EMRs. For that reason, our team designed a survey on EMR usage which was taken by 20 medical professionals in the University of Michigan hospital system.
+After our team gather in-depth stories of provider's EMR experiences via interviews, we wanted to learn more about what types of patient information were most important. Our team designed a survey on EMR usage which was taken by 20 medical professionals in the University of Michigan hospital system.
 
 Based on our survey, **we learned** that:
 
-* Viewing the result of imaging studies (1), imaging reports (2), and lab reports (3) were ranked as top three most common reasons for a practitioner to view a patient record.
+* Viewing the result of **imaging studies (1), imaging reports (2), and lab reports (3)** were ranked as top three most common reasons for a practitioner to view a patient record.
 
-* 75% of respondents viewed the ability to see outside records at the point of care as very important.
+* **75% of respondents** viewed the ability to see outside records at the point of care as very important.
 
-* Providers were generally dissatisfied (60%) with asking patients to bring in their own records before an encounter.
+* Providers were **generally dissatisfied (60%) with asking patients to bring in their own records** before an encounter.
 
-#### Personas
+#### Personas + User Journey
 
-Based on our interviews, our team constructed three personas representing distinct groups in our audience.
+Based on our interviews, our team constructed three personas representing distinct groups in our audience. During our prototyping phase, they were valuable in reminding our team of the distant ways different types of providers used EMRs.
 
 * **Erin, Senior Doctor:** Erin is a seasoned doctor who has practiced medicine for over 20 years and saw the transition from paper-based to electronic record systems. She is not a tech-savvy person and uses her hospital’s EMR by memorizing specific steps access the right information.
 
@@ -90,10 +90,14 @@ Based on our interviews, our team constructed three personas representing distin
 
 ![personas](/images/project-assets/emx-personas.png)
 
+We also created an user journey, to document our team's understanding how providers accessed patient data and the pain points they encounter doing so.
+
+![user journey](/images/project-assets/emx-journey.png)
+
 
 ### Ideation
 ---
-Our team used a parallel design approach to coming up with design solutions. Each designer on our team created rough wireframes for multiple ideas and then pitched each idea to the team for feedback and critique. Afterwards, we reviewed all ideas that were pitched and created one collaborative wireframe using our individual ideas as references.
+Our team used a **parallel design approach** to coming up with design solutions. Each designer on our team created rough wireframes for multiple ideas and then **pitched each idea to the team** for feedback and critique. Afterwards, we reviewed all ideas that were pitched and **created one collaborative wireframe** using our individual ideas as references.
 
 {{< emxIdeation >}}
 
@@ -103,7 +107,7 @@ Our team used a parallel design approach to coming up with design solutions. Eac
 
 ##### Dashboard: A running timeline of the patient’s history
 
-When providers meet patients, especially for the first time, they want to know the medical history of that patient. This will involve asking patients directly, but patients can miss details that are important to making a diagnosis. What can done so that providers check that they are getting the full picture of a patient’s history?
+When providers meet patients, especially for the first time, they want to know the medical history of that patient. This will involve asking patients directly, but patients can miss details that are important to making a diagnosis. **What can done so that providers check that they are getting the full picture of a patient’s history?**
 
 The dashboard is designed to allow healthcare providers to see a patient history at a glance. Information is organized as in a combined feed and seperated by record type.
 
@@ -121,7 +125,7 @@ _Design Rationale_
 
 ##### Dashboard Customization: Increase the level of personalization for each specific doctor’s practice
 
-Different providers see different information as important. It would be futile for our team to attempt to select what type of records should appear on the dashboard since any decision we make would not acommedate many of our users. How we accommodate different needs for different doctors?
+Different providers see different information as important. It would be futile for our team to attempt to select what type of records should appear on the dashboard since any decision we make would not acommedate many of our users. **How might we accommodate different needs for different providers?**
 
 Dashboard customization gives EMX system the flexibility for users adjust the dashboard catagories to fit an individual provider’s workflow while still maintaining a clear information hierarchy that makes the page easy to skim.
 
@@ -137,15 +141,15 @@ _Design Rationale_
 
 ##### Save for later: Keeping track of patient information
 
-Providers typically look at multiple different types of documents making a diagnosis. In most EMR systems, this means multiple searches through the patient’s data to find all the documents they need. How our system be designed so that providers can keep track of multiple documents at once?
+Providers typically look at multiple different types of documents making a diagnosis. In most EMR systems, this means multiple searches through the patient’s data to find all the documents they need. **How might our system be designed so that providers can keep track of multiple documents at once?**
 
-Our save for later feature allows providers to mark documents they find important so that they can quickly refer back to several documents very quickly.
+Our save for later feature allows providers to mark documents they find important so that they can quickly refer back to several documents very quickly. This will save them the effort of having to repeat a search for a document simply to view it again.
 
 ![EMX save for later](/images/project-assets/save-for-later.gif)
 
 _Design Rationale_
 
-* Save button next to documents is simple and easily undoable to make the process of saving as fast as possible with the ability to undo mistakes easily.
+* Save icon next to documents is simple and easily toggleable to make the process of saving as fast as possible while preserving the ability to undo mistakes easily.
 
 * Save for later button on bottom right corner allows providers to jump to their saved documents in one click.
 
@@ -165,24 +169,24 @@ _Design Rationale_
 
 ### Design Iteration
 ---
-Our team completed four design cycles in which we built a prototype, got feedback from our users, and modified the prototype based on feedback. At each iteration, features were adjusted or changed based on what we learned.
+Our team completed **four design cycles** in which we built a prototype, got feedback from our users, and modified the prototype based on feedback. At each iteration, **features were adjusted or changed based on what we learned from our users.**
 
 
 #### Refining the Dashboard Design
 
-Through usability testing, we learned that doctors want to look multiple records of different types before making a diagnosis. Our design evolved so that providers can preview multiple types of records can be presented on EMX’s dashboard.
+Through usability testing, we learned that doctors want to look multiple records of different types before making a diagnosis. Our dashboard design evolved so that providers can preview multiple types of records can be presented on EMX’s dashboard.
 
 ![Dashboard iteration](/images/project-assets/emx-dashhistory.png)
 
 #### Language Differences
 
-In our first prototypes, we used the word “history” to label the patient’s full visit history. During user testing, this term was confusing our users due to it having a different meaning in the context of healthcare. One user remarked, _“When I see the word history, I think of the history of this patient’s diagnosis.”_ We changed this labeling to stay “Encounter history” to clarify the confusion.
+In our first prototypes, we used the word “history” to label the patient’s full visit history. During user testing, this term was confusing our users due to it having a different meaning in the context of healthcare. One user remarked, _“When I see the word history, I think of the history of this patient’s [current] diagnosis.”_ We changed this labeling to stay “Encounter history” to clarify the confusion.
 
 ![language changes](/images/project-assets/emx-labelchange.png)
 
 #### Adjusting for limitations
 
-Viewing labs results is a common reason for a provider to access their EMR. For that reason, our initial designs displayed content from lab results records in the dashboard to save an extra click to view it. This was changed after learning that lab results can very long or scanned as image. In both cases, information would be difficult to pull, so our design was changed to reflect this technical limitation.
+Viewing labs results is a common reason for a provider to access their EMR. For that reason, our initial designs displayed content from lab results records in the dashboard to save an extra click to view them. This was changed after learning that lab results can very long or scanned into a EMR as an image. In both cases, information would be difficult to pull, so our design was changed to reflect this technical limitation.
 
 ![changing for limitions](/images/project-assets/emx-test-change.png)
 
@@ -196,7 +200,7 @@ We developed a color and typographic guide during our last iteration cycle to im
 ![UI Page 2](/images/project-assets/emx-uiguide2.png)
 
 #### Interaction Map
-A interaction map was also included with deliverables.
+A interaction map was also included with deliverables. We focused on making making the map as thorough as possible to document the user flow for EMX's developers.
 
 [Click to here to view a hi-resolution version (PDF)](/documents/emx-interaction-map.pdf)
 
@@ -208,7 +212,7 @@ The final version of our interactive prototype on InVision was included with our
 
 ### Outcomes
 ---
-We delivered a full InVision prototype of our project to our client, detailed UI specifications, and an interaction map documenting the information architecture. After some minor visual tweeks, our client was extremely satisfied with our work and hopes to incorporate our design into the development of their product.
+We delivered a **full InVision prototype of our project to our client, detailed UI specifications, and an interaction map documenting the information architecture.** After some minor visual tweeks, our client was extremely satisfied with our work and plans to incorporate our design into the development of their product.
 
 What our client had to say:
 

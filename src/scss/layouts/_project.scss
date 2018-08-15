@@ -24,7 +24,7 @@
     h5 {
         color: black;
         padding-left: 10px;
-        border-left: 3px solid black;
+        border-left: 3px solid $main-blue;
         margin-bottom: 15px;
     }
 
@@ -74,6 +74,22 @@
 
         p {
             font-size: 0.9rem;
+        }
+    }
+}
+
+.project-outlinks {
+    margin-top: 35px;
+    a {
+        text-decoration: none;
+        padding: 1% 3%;
+        border: 2px solid $main-blue;
+        margin-right: 10px;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: $main-blue;
+            color: white;
         }
     }
 }
