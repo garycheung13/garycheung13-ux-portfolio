@@ -21,4 +21,10 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    @include breakpoint-min(medium) {
+        a:hover {
+            color: $main-blue;
+        }
+    }
 }

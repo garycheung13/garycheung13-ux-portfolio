@@ -13,6 +13,12 @@
     @include breakpoint-max(small) {
         padding-right: 0;
     }
+
+    @include breakpoint-min(medium) {
+        a:hover {
+            color: $main-blue;
+        }
+    }
 }
 
 .card-header {

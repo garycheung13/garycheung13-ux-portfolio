@@ -1,9 +1,9 @@
 ---
-title: "Explorable Explanation"
+title: "Explorable Explanations"
 date: 2018-08-09T17:37:37-04:00
 draft: false
 tagline: "Data visualizations exploring herd immunity and modern art movements."
-roles: "Visual Design, Data Visualization"
+roles: "Web Development, Data Visualization"
 card: "images/cards/dataviz.png"
 headerImage: ""
 weight: 5

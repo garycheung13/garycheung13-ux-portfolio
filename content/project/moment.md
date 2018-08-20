@@ -129,6 +129,14 @@ Since our design involved a wearable, **physical actions are part of the user ex
 
 {{< figure src="/images/project-assets/moment-aud.png" caption="Figure: Digital schematic of the arduino we built." >}}
 
+### Prototype Links
+---
+Check the InVision prototypes for the watch and mobile app in the links below.
+{{< multipleLinks >}}
+    {{< linkTargetBlank src="https://projects.invisionapp.com/share/RFGQLY3HD2Z#/screens/289900909" >}}Mobile App{{< /linkTargetBlank >}}
+    {{< linkTargetBlank src="https://projects.invisionapp.com/share/X7GQLY9QAM3#/screens/290702080" >}}Wearable{{< /linkTargetBlank >}}
+{{< /multipleLinks >}}
+
 
 ### Reflection
 ---
