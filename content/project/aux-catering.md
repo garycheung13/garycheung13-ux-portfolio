@@ -6,7 +6,7 @@ tagline: "A new landing page for University of Michigan Catering"
 roles: "Web Development"
 card: "/images/cards/aux-catering.png"
 headerImage: "/images/project-assets/aux-header.png"
-weight: 0
+weight: 5
 
 ---
 

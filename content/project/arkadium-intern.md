@@ -6,7 +6,7 @@ tagline: "Data visualization design for Arkadium's Inhabit."
 roles: "UI Design, Data Visualization"
 card: "images/cards/ark.png"
 headerImage: "/images/project-assets/ark-header.png"
-weight: 0
+weight: 6
 ---
 
 ### Overview
