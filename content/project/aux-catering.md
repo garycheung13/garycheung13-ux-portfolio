@@ -19,11 +19,12 @@ As a web developer on the University of Michigan's auxiliary marketing team, I w
 I was responsible for implementing the design based on mockups and refactoring the frontend codebase. I **integrated an API from University Dining Services** to dynamically generate the catering menu. I rewrote the frontend code to remove the dependency on the Google Blogger platform and replaced JQuery methods with native DOM API methods. **Accessibility improvements** were also made by rewriting markup **using semantic HTML, assigning ARIA properties, and adding using tabindex**.
 
 #### Links
-Click to view the live site.
 
 {{< multipleLinks >}}
 {{< linkTargetBlank src="https://catering.umich.edu" >}}Live Site{{< /linkTargetBlank >}}
 {{< /multipleLinks >}}
+
+#### Screenshot
 
 ![Screenshot of website](/images/project-assets/aux-catering-screen.png)
 

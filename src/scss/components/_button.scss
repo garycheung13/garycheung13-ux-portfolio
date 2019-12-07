@@ -6,13 +6,31 @@
 
 .btn-primary {
     padding: 1.5% 4%;
-    background-color: $main-blue;
+    border: 1px solid $main-blue;
+    border-radius: 4px;
     text-decoration: none;
     text-transform: uppercase;
-    color: white !important;
 
     &:hover {
-        box-shadow: 0px 0px 11px 0px rgba(194,194,194,0.75);
+        background-color: $main-blue;
+        color: white;
+        box-shadow: 0px 2px 4px 0px #ABABAB;
+    }
+}
+
+.btn-action {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 600;
+    background-color: $main-blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 0px #ABABAB;
+    padding: 2% 4%;
+
+    &:hover {
+        background-color: $main-blue-tinted;
     }
 }
 
